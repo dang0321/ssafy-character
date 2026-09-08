@@ -35,12 +35,11 @@ SSAFY 캐릭터 공모전을 위해 제작한 **피움**과 **세미**의 기본
 
 ## 제작 방식과 프롬프트
 
-사용 도구는 **ChatGPT(Codex)의 내장 이미지 생성·편집 도구 `image_gen`**입니다. 사용자의 아이디어와 피드백을 바탕으로 어시스턴트가 도구 입력 프롬프트를 작성했고, 초기 생성 뒤 기존 이미지와 로고 참고 자료를 입력해 반복 수정했습니다.
+사용 도구는 **ChatGPT(Codex)의 내장 이미지 생성·편집 도구**인 `image_gen`입니다. 사용자의 아이디어와 피드백을 바탕으로 어시스턴트가 도구 입력 프롬프트를 작성했고, 초기 생성 뒤 기존 이미지와 로고 참고 자료를 입력해 반복 수정했습니다.
 
 - [기본형 생성·수정 프롬프트 원문 — 7단계](prompts/basic-generation.md)
 - [응용형 생성 프롬프트 원문 — 캐릭터별 3종](prompts/application-generation.md)
 - [제작 과정과 최종 반영 사항](docs/production-log.md)
-- [중간 시안 및 로고 참고 자료](assets/process/)
 - [이미지 크기·SHA-256 기록](assets/manifest.json)
 
 구체적인 이미지 모델명은 도구 반환값에서 확인되지 않아 기재하지 않았습니다. SSAFY 로고는 원본 벡터를 직접 합성한 결과가 아니라 제공 이미지를 참고한 AI 재현입니다.
@@ -66,7 +65,6 @@ assets/
   pium-actions-v1.png           피움 응용형 3종
   semi-actions-v1.png           세미 응용형 3종
   manifest.json                이미지 크기와 해시
-  process/                     기본형 중간 시안과 로고 참고 이미지
 docs/
   storyline.md                 이름·스토리·성격·디자인 의미
   applications.md              응용형 설명

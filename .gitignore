@@ -4,3 +4,6 @@ desktop.ini
 *.tmp
 .env
 .env.*
+
+# Local-only design references
+assets/process/

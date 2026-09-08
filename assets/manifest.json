@@ -19,54 +19,5 @@
     "height": 887,
     "bytes": 1127283,
     "sha256": "F923895EC36B45C8317083BC960FEDA2CB6C5B07CFDE28CDFF2F7E1B9D272636"
-  },
-  {
-    "path": "assets/process/01_initial_three_concepts.png",
-    "width": 1774,
-    "height": 887,
-    "bytes": 1032460,
-    "sha256": "263C9B14141DCAF3473E730EC7175D25928CB693A246B46C0476D6151925A320"
-  },
-  {
-    "path": "assets/process/02_name_badges.png",
-    "width": 1774,
-    "height": 887,
-    "bytes": 1032218,
-    "sha256": "75C612B4A229A186A60B3B1F36C6AB76AF4675315D0BCDF9CE8FF2216635A2B2"
-  },
-  {
-    "path": "assets/process/03_laptop_keyboard_original.png",
-    "width": 1774,
-    "height": 887,
-    "bytes": 999307,
-    "sha256": "B1E0B07C6FE3FA9F4B9D0B5686A8B271FB9A7EC32FABC024FC0B2FF6B80B58BA"
-  },
-  {
-    "path": "assets/process/04_smaller_accessories.png",
-    "width": 1774,
-    "height": 887,
-    "bytes": 1217327,
-    "sha256": "F86F63C9C9D4E3212A677D727B3E642892EEE0DA7DDF1E3FA62D3D0D59C73DC4"
-  },
-  {
-    "path": "assets/process/05_color_logo_revision.png",
-    "width": 1774,
-    "height": 887,
-    "bytes": 1274650,
-    "sha256": "459AD69ED83C57FD687E118E81336C2DB46E198FE7E3B68A5AA483786C7E722D"
-  },
-  {
-    "path": "assets/process/06_laptop_edge_revision.png",
-    "width": 1774,
-    "height": 887,
-    "bytes": 1300726,
-    "sha256": "5D0F5C5E12360A44D3E4B42FE8A88316337EDCC597267E0E4559D4BF46051571"
-  },
-  {
-    "path": "assets/process/user_supplied_ssafy_logo.png",
-    "width": 429,
-    "height": 439,
-    "bytes": 112745,
-    "sha256": "1DF831538D1D837D739D0478647B7E0809B3732898A8E59E01F3D51F45A6D90B"
   }
 ]

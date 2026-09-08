@@ -9,7 +9,7 @@
 ## 1. 초기 세 캐릭터 비교 시안 생성
 
 - 입력 이미지: 없음.
-- 출력: `../assets/process/01_initial_three_concepts.png`
+- 출력: `로컬 보관: 01_initial_three_concepts.png`
 - 피움·세미·이음을 한 장에 생성한 단계. 이후 이음은 제외했습니다.
 
 ```text
@@ -18,8 +18,8 @@ Create one landscape comparison concept sheet showing THREE DISTINCT original ad
 
 ## 2. 두 캐릭터로 축소하고 명찰 추가
 
-- 입력 이미지 1: `../assets/process/01_initial_three_concepts.png`
-- 출력: `../assets/process/02_name_badges.png`
+- 입력 이미지 1: `로컬 보관: 01_initial_three_concepts.png`
+- 출력: `로컬 보관: 02_name_badges.png`
 - 이 단계의 ‘싸피움’ 이름과 몸의 명찰은 이후 사용자 피드백으로 변경·제거했습니다.
 
 ```text
@@ -28,9 +28,9 @@ Edit the supplied mascot comparison image into a polished SECOND-ROUND compariso
 
 ## 3. 명찰 제거, 피움으로 이름 복원, 노트북·키보드 추가
 
-- 입력 이미지 1 — 편집 대상: `../assets/process/02_name_badges.png`
-- 입력 이미지 2 — 로고 참고: `../assets/process/user_supplied_ssafy_logo.png`
-- 출력: `../assets/process/03_laptop_keyboard_original.png`
+- 입력 이미지 1 — 편집 대상: `로컬 보관: 02_name_badges.png`
+- 입력 이미지 2 — 로고 참고: `로컬 보관: user_supplied_ssafy_logo.png`
+- 출력: `로컬 보관: 03_laptop_keyboard_original.png`
 - 사용자가 제공한 의류 부착 로고의 글자·색·테두리를 소품에 응용했습니다.
 
 ```text
@@ -39,8 +39,8 @@ Edit image 1, the two-mascot concept sheet. Image 2 is ONLY the reference for th
 
 ## 4. 소품 크기 축소와 둥근 외형 조정
 
-- 입력 이미지: `../assets/process/03_laptop_keyboard_original.png`
-- 출력: `../assets/process/04_smaller_accessories.png`
+- 입력 이미지: `로컬 보관: 03_laptop_keyboard_original.png`
+- 출력: `로컬 보관: 04_smaller_accessories.png`
 - 프롬프트의 ‘75 percent’는 요청한 목표 비율이며, 결과를 정밀 측정한 수치는 아닙니다.
 
 ```text
@@ -49,9 +49,9 @@ Make a precise local revision to this two-mascot concept sheet. The user likes b
 
 ## 5. 노트북 외형·색 복원 및 키보드 로고 확대
 
-- 입력 이미지 1 — 작은 소품 크기의 편집 대상: `../assets/process/04_smaller_accessories.png`
-- 입력 이미지 2 — 노트북 외형·색 참고: `../assets/process/03_laptop_keyboard_original.png`
-- 출력: `../assets/process/05_color_logo_revision.png`
+- 입력 이미지 1 — 작은 소품 크기의 편집 대상: `로컬 보관: 04_smaller_accessories.png`
+- 입력 이미지 2 — 노트북 외형·색 참고: `로컬 보관: 03_laptop_keyboard_original.png`
+- 출력: `로컬 보관: 05_color_logo_revision.png`
 - 결과에서 자판 한 열 제거가 충분히 반영되지 않아 후속 편집을 진행했습니다.
 
 ```text
@@ -60,9 +60,9 @@ Precise accessory-only edit of IMAGE 1. Image 1 is the current approved SMALL ac
 
 ## 6. 노트북 모서리 보완 및 자판 개수 재지정
 
-- 입력 이미지 1 — 편집 대상: `../assets/process/05_color_logo_revision.png`
-- 입력 이미지 2 — 노트북 참고: `../assets/process/03_laptop_keyboard_original.png`
-- 출력: `../assets/process/06_laptop_edge_revision.png`
+- 입력 이미지 1 — 편집 대상: `로컬 보관: 05_color_logo_revision.png`
+- 입력 이미지 2 — 노트북 참고: `로컬 보관: 03_laptop_keyboard_original.png`
+- 출력: `로컬 보관: 06_laptop_edge_revision.png`
 - 이 결과에서도 자판이 5열로 남아 최종 단계에서 키보드 내부 구성을 다시 지정했습니다.
 
 ```text
@@ -71,7 +71,7 @@ Apply TWO surgical corrections to IMAGE 1 while keeping everything else identica
 
 ## 7. 최종 키보드 자판 단순화와 로고 공간 확보
 
-- 입력 이미지: `../assets/process/06_laptop_edge_revision.png`
+- 입력 이미지: `로컬 보관: 06_laptop_edge_revision.png`
 - 출력: **`../assets/basic.png`**
 - 최종 결과: 키보드 왼쪽에 4개씩 2줄의 작은 자판과 스페이스바, 오른쪽에 확대된 SSAFY 로고.
 
@@ -79,16 +79,18 @@ Apply TWO surgical corrections to IMAGE 1 while keeping everything else identica
 Edit ONLY the small keyboard held by the right blue semicolon mascot. Keep the rest of the entire picture exactly identical, including left mascot with gray small closed laptop, right mascot, hands, lettering underneath, sizes, colors and background. Replace the keyboard FACE LAYOUT with this simpler layout, preserving its case outline, size and diagonal angle: LEFT HALF has two rows of FOUR rounded square keycaps each (8 small keycaps total in those two rows), with one long spacebar below. RIGHT HALF is an open cream branding zone carrying the large existing blue/black SSAFY logo. Clear out the keys currently nearest the logo so the logo has substantial clean breathing room and takes up the right half above the holding hand. There MUST NOT be five small keys per row: draw only FOUR per row. Keep the few bottom corner keys if needed. Keep key size similar to current, leave visibly EMPTY SPACE between keys and logo rather than filling the space with new keys. Large readable 'SSAFY' logo should extend left into the cleared space. This requested simplification is the primary change and must be clearly visible. Do not return the unchanged five-column key layout. No other changes. Full two-character comparison image.
 ```
 
-## 참조 이미지와 원래 생성 파일 대응
+## 로컬 참조 이미지와 원래 생성 파일 대응
 
-| 저장 파일 | 원래 생성 파일명 |
+| 파일 또는 로컬 보관 자료 | 원래 생성 파일명 |
 |---|---|
-| `../assets/process/01_initial_three_concepts.png` | `exec-61914243-81da-457a-8dc9-65fa6b2547ae.png` |
-| `../assets/process/02_name_badges.png` | `exec-fb2e1c3e-1a32-4ce9-bb5a-46e05ce6ff89.png` |
-| `../assets/process/03_laptop_keyboard_original.png` | `exec-9ddd3449-25ea-4266-b845-7df43cf0ddeb.png` |
-| `../assets/process/04_smaller_accessories.png` | `exec-8d938176-d650-47de-aaeb-44d5958c2742.png` |
-| `../assets/process/05_color_logo_revision.png` | `exec-e52e72ed-452b-453f-8eee-1d5c615a1567.png` |
-| `../assets/process/06_laptop_edge_revision.png` | `exec-774a8a89-9339-4e30-a8fb-0055e5f8f016.png` |
+| `로컬 보관: 01_initial_three_concepts.png` | `exec-61914243-81da-457a-8dc9-65fa6b2547ae.png` |
+| `로컬 보관: 02_name_badges.png` | `exec-fb2e1c3e-1a32-4ce9-bb5a-46e05ce6ff89.png` |
+| `로컬 보관: 03_laptop_keyboard_original.png` | `exec-9ddd3449-25ea-4266-b845-7df43cf0ddeb.png` |
+| `로컬 보관: 04_smaller_accessories.png` | `exec-8d938176-d650-47de-aaeb-44d5958c2742.png` |
+| `로컬 보관: 05_color_logo_revision.png` | `exec-e52e72ed-452b-453f-8eee-1d5c615a1567.png` |
+| `로컬 보관: 06_laptop_edge_revision.png` | `exec-774a8a89-9339-4e30-a8fb-0055e5f8f016.png` |
 | `../assets/basic.png` | `exec-0068366d-2fec-49c6-bb3d-1ccad328f941.png` |
-| `../assets/process/user_supplied_ssafy_logo.png` | `codex-clipboard-49132ef5-947f-48ff-9cac-249e36597516.png` |
+| `로컬 보관: user_supplied_ssafy_logo.png` | `codex-clipboard-49132ef5-947f-48ff-9cac-249e36597516.png` |
 
+
+기본형과 응용형 결과 이미지는 저장소에 포함했습니다. 기본형 중간 시안과 사용자 제공 로고 참고 원본은 로컬에 보관하며, 이 저장소에는 업로드하지 않았습니다. 위 입력 이미지 표기는 실제 제작 과정을 설명하기 위한 기록입니다.
