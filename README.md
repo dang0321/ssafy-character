@@ -75,4 +75,3 @@ prompts/
   basic-generation.md          실제 기본형 프롬프트
   application-generation.md    실제 응용형 프롬프트
 ```
-
