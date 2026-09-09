@@ -14,10 +14,25 @@
     "sha256": "569941D87F00646C64F8FBF78EC4706F13EB99B33AC1F31FE1892B8E08DBE443"
   },
   {
+    "path": "assets/pium-basic.png",
+    "width": 887,
+    "height": 887,
+    "bytes": 666426,
+    "sha256": "40A3BEFAF070FD5AAB8241F7A87297CDE5F64F82D44251ACCD240037041AAE49"
+  },
+  {
     "path": "assets/semi-actions-v1.png",
     "width": 1774,
     "height": 887,
     "bytes": 1127283,
     "sha256": "F923895EC36B45C8317083BC960FEDA2CB6C5B07CFDE28CDFF2F7E1B9D272636"
+  },
+  {
+    "path": "assets/semi-basic.png",
+    "width": 887,
+    "height": 887,
+    "bytes": 678164,
+    "sha256": "9B94CD770D2227B3E10BEA34A8B31D9D06907656C140030FE2EDC5DFA20BA581"
   }
 ]
+
