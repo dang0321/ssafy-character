@@ -21,6 +21,13 @@
     "sha256": "40A3BEFAF070FD5AAB8241F7A87297CDE5F64F82D44251ACCD240037041AAE49"
   },
   {
+    "path": "assets/pium-recharge-v1.png",
+    "width": 1254,
+    "height": 1254,
+    "bytes": 984620,
+    "sha256": "67E23EDDE4FE15962F2DE72FE9F2759CE96846EEA1AFF7D5F3623BBBB2B85DDD"
+  },
+  {
     "path": "assets/semi-actions-v1.png",
     "width": 1774,
     "height": 887,
@@ -33,6 +40,12 @@
     "height": 887,
     "bytes": 678164,
     "sha256": "9B94CD770D2227B3E10BEA34A8B31D9D06907656C140030FE2EDC5DFA20BA581"
+  },
+  {
+    "path": "assets/semi-recharge-v1.png",
+    "width": 1254,
+    "height": 1254,
+    "bytes": 1223471,
+    "sha256": "D8EB64E473C530E0C73672F31227C9880BBD5267B3D7C962711927A2AB2136D9"
   }
 ]
-
